@@ -1,0 +1,57 @@
+.nav_home{
+    height:70px;
+    position:relative;
+    /* background-color:#A0E7E5; */
+    background-color:#161623;
+    box-shadow:  11px 11px 12px #09090f,
+    -11px -11px 12px #232337;
+   
+}
+
+    
+   
+      
+
+.read, .dashboard,.modify{
+    position:absolute;
+    top:20px;
+}
+
+.dashboard{
+    right: 600px;
+}
+
+.read{
+    right:300px;
+}
+
+.modify{
+    right:80px;
+}
+
+
+.main_logo{
+    position:absolute;
+    height:70px;
+}
+
+@media (max-width:794px){
+    
+    .read{
+     right:200px;
+    }
+    .modify{
+      right:10px;
+    }
+   
+} 
+
+@media (max-width:516px){
+    .nav_home{
+        height:140px;
+    }
+    .read,.modify{
+        display:block;
+        top:80px;
+    }
+}

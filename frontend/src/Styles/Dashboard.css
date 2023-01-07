@@ -1,0 +1,15 @@
+.frequency_tags,.positive_table{
+      
+      margin-left:25px;
+      margin-top: 30px;
+      /* box-shadow: 0 15px 10px rgba(154,160,185,0.05); */
+      box-shadow: 0 15px 40px rgba(17, 17, 19, 0.2);
+}
+.frequency_tags{
+height:25rem;
+}
+
+.botton{
+    height:40px;
+    margin-top:29px;
+}

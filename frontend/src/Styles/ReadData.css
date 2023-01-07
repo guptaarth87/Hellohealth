@@ -1,0 +1,36 @@
+
+.main_div{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.head_body{
+    background-color:#161623;
+    color:white;
+    box-shadow:  11px 11px 12px #09090f,
+    -11px -11px 12px #232337;
+    height:200px;
+    position:relative;
+    padding-left: 30px;
+}
+
+.input_field{
+    width:12rem;
+}
+
+
+@media(max-width:1100px){
+    .head_body{
+        height:500px;
+    }
+    .inp_wid{
+        width:14rem;
+    }
+}
+
+.apply{
+    position:relative;
+    top:10px;
+    left:15px;
+}
